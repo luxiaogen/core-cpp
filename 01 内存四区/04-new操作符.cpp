@@ -10,7 +10,7 @@ int *method()
   return p;
 }
 
-void test01()
+int test01()
 {
   int *p = method();
   cout << *p << endl;
